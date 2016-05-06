@@ -2589,3 +2589,17 @@ article.blog-post:hover .blog-post,article.blog-post:hover .post-cat a,article.b
         width: 30px;
     }
 }
+
+
+.row{
+  &.full-width{
+    max-width: 100% !important;
+    &.diff{background: #40DBE5;}
+    .row{
+      margin: 0 auto;
+      max-width: 62.5rem;
+      background: inherit;
+    }
+
+  }
+}
