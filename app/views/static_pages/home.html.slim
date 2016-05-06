@@ -1,5 +1,18 @@
 #wrapper.dark-slider
 
+  /! logo
+  .logo-wrapper
+    h1.logo
+      = image_tag("images/ashoka-logo.png", alt: "ashoka a responsive minimal multipurpose theme")
+      | Erba FOOTBALL CLUB
+  /! /logo
+  /! navigatin icon
+  .navmenu-open
+    a#trigger-navbar href="javascript:void(0);" 
+      span.icon_menu
+  /! / navigatin icon
+
+
   /! home - video presenation
   section#home.video.presenation
     .scroller
@@ -14,7 +27,386 @@
       span.scroll-text Scroll
   /! /home
 
+  #main-wrapper
+    /! about
+    section#about.section
+      .container
+        .row
+          h2.section-title.text-center
+            span.section-title-border.wow.pulse data-wow-delay="1s" data-wow-duration="1s" エルバFC　指導理念
+          .section-info.medium-10.medium-offset-1.text-center.wow.fadeInDown
+            h3
+              | Because we
+              strong 情熱魂
+              | what we do
+            ul.hr
+              li.hr-line
+                span
+              li.hr-icon
+                i.icon_heart_alt
+              li.hr-line
+                span
+            p To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage.
+      /! about-listing
+      #about-listing
+        .container
+          .row
+            .large-4.medium-4.small-12.columns.listing-wrapper.wow.fadeInLeft.animated data-wow-delay="0.5s" 
+              .circle-point
+              .post-list.post-thinkers
+                h2.single-title
+                  i.icon_lightbulb_alt
+                  | 飽くなき向上心
+                p Erba FCの飽くなき向上心とは、個人としてもチームとしても常に競争しチャレンジし続け、そして満足することなくより高い目標に向かって努力する心を指します。
+                p Pecorino rubber cheese cheese triangles.
+                ul
+                  li Pecorino
+                  li Cheese
+                  li Halloumi
+                  li Cauliflower
+            .large-4.medium-4.small-12.columns.listing-wrapper.wow.fadeInLeft.animated data-wow-delay="1s" 
+              .circle-point
+              .post-list.post-dremers
+                h2.single-title
+                  i.icon_chat_alt
+                  | 人間力の向上
+                p Erba FCの飽くなき向上心とは、個人としてもチームとしても常に競争しチャレンジし続け、そして満足することなくより高い目標に向かって努力する心を指します。
+                p Pecorino rubber cheese cheese triangles.
+                ul
+                  li Pecorino
+                  li Cheese
+                  li Halloumi
+                  li Cauliflower
+            .large-4.medium-4.small-12.columns.listing-wrapper-last.wow.fadeInLeft.animated data-wow-delay="1.5s" 
+              .post-list.post-researchers
+                h2.single-title
+                  i.icon_piechart
+                  | 文武両道
+                p 良いサッカー選手を育成するためには、まずその選手が『良い人間』でなければならないという信念を持って指導しております。
+                p Pecorino rubber cheese cheese triangles.
+                ul
+                  li Pecorino
+                  li Cheese
+                  li Halloumi
+                  li Cauliflower
+    /! /about
 
+
+    /! clients
+    section#clients.section
+      .container
+        .row
+          h2.section-title.text-center
+            span.section-title-border.wow.pulse data-wow-delay="1s" data-wow-duration="1s"  Satisfied Clients
+          .section-info.medium-10.medium-offset-1.text-center.wow.fadeInDown
+            h3
+              | World
+              strong Brands
+              | are some of our satisfied clients.
+            ul.hr
+              li.hr-line
+                span
+              li.hr-icon
+                i.icon_star_alt
+              li.hr-line
+                span
+            p As a creative studio we believe no client is too big nor too small to work with us to obtain good advantage.
+        /! clients-listing
+        #clients-listing-wrapper
+          .row
+            .large-3.medium-3.small-6.columns.text-center.client-listing-1
+              .circle-point
+              a href="http://demo.geekslabs.com/ashoka/" target="_blank"
+                = image_tag("images/logo/logo-1.png", alt: "logo-1", class: "img-responsive brand-img wow fadeInLeft", "data-wow-delay" => "0.1s", "data-wow-duration" => "1s")
+            .large-3.medium-3.small-6.columns.text-center.client-listing-1
+              .circle-point
+              a href="http://demo.geekslabs.com/ashoka/" target="_blank"
+                = image_tag("images/logo/logo-2.png", alt: "logo-2", class: "img-responsive brand-img wow fadeInLeft", "data-wow-delay" => "0.2s", "data-wow-duration" => "1s")
+            .large-3.medium-3.small-6.columns.text-center.client-listing-1
+              .circle-point
+              a href="http://demo.geekslabs.com/ashoka/" target="_blank" 
+                = image_tag("images/logo/logo-3.png", alt: "logo-3", class: "img-responsive brand-img wow fadeInLeft", "data-wow-delay" => "0.3s", "data-wow-duration" => "1s")
+            .large-3.medium-3.small-6.columns.client-listing-last-1
+              a href="http://demo.geekslabs.com/ashoka/" target="_blank" 
+                = image_tag("images/logo/logo-4.png", alt: "logo-4", class: "img-responsive brand-img wow fadeInLeft", "data-wow-delay" => "0.4s", "data-wow-duration" => "1s")
+          .row
+            .large-3.medium-3.small-6.columns.text-center.client-listing-2
+              .circle-point
+              a href="http://demo.geekslabs.com/ashoka/" target="_blank" 
+                = image_tag("images/logo/logo-5.png", alt: "logo-5", class: "img-responsive brand-img wow fadeInLeft", "data-wow-delay" => "0.5s", "data-wow-duration" => "1s")
+            .large-3.medium-3.small-6.columns.text-center.client-listing-2
+              .circle-point
+              a href="http://demo.geekslabs.com/ashoka/" target="_blank" 
+                = image_tag("images/logo/logo-6.png", alt: "logo-6", class: "img-responsive brand-img wow fadeInLeft", "data-wow-delay" => "0.6s", "data-wow-duration" => "1s")
+            .large-3.medium-3.small-6.columns.text-center.client-listing-2
+              .circle-point
+              a href="http://demo.geekslabs.com/ashoka/" target="_blank" 
+                = image_tag("images/logo/logo-7.png", alt: "logo-7", class: "img-responsive brand-img wow fadeInLeft", "data-wow-delay" => "0.7s", "data-wow-duration" => "1s")
+            .large-3.medium-3.small-6.columns.text-center.client-listing-last-2
+              a href="http://demo.geekslabs.com/ashoka/" target="_blank" 
+                = image_tag("images/logo/logo-8.png", alt: "logo-8", class: "img-responsive brand-img wow fadeInLeft", "data-wow-delay" => "0.8s", "data-wow-duration" => "1s")
+    /! /clients
+
+    /! team
+    section#team.section.dark-bg-odd
+      .container
+        .row
+          h2.section-title.text-center
+            span.section-title-border.wow.pulse data-wow-delay="1s" data-wow-duration="1s"  Meet Our Team
+          .section-info.medium-10.medium-offset-1.text-center.wow.fadeInDown
+            h3
+              | We'll work hard until you can't say
+              strong "WOW!"
+            ul.hr
+              li.hr-line
+                span
+              li.hr-icon
+                i.icon_id-2
+              li.hr-line
+                span
+            p As a creative studio we believe no client is too big nor too small to work with us to obtain good advantage.
+        /! team-listing
+        .team-listing-wrapper.row
+          .large-3.medium-3.small-6.columns.team-listing.wow.fadeInUp data-wow-delay="0.2s" data-wow-duration="1s"
+            = image_tag("images/team/team-1.jpg", alt: "Jack Smith", class: "team-media")
+            .team-overlay
+              h3.team-overlay-title.text-light Jack Smith
+              p.team-overlay-designation CEO / Founder
+              ul.team-overlay-social
+                li
+                  a data-scroll="" href="#" 
+                    span.social_facebook
+                li
+                  a data-scroll="" href="#" 
+                    span.social_twitter
+                li
+                  a data-scroll="" href="#" 
+                    span.social_linkedin
+          .large-3.medium-3.small-6.columns.team-listing.wow.fadeInUp data-wow-delay="0.4s" data-wow-duration="1s" 
+            = image_tag("images/team/team-2.jpg", alt: "Jane Awesome", class: "team-media")
+            .team-overlay
+              h3.team-overlay-title.text-light Jane Awesome
+              p.team-overlay-designation PR Manager
+              ul.team-overlay-social
+                li
+                  a data-scroll="" href="#" 
+                    span.social_facebook
+                li
+                  a data-scroll="" href="#" 
+                    span.social_twitter
+                li
+                  a data-scroll="" href="#" 
+                    span.social_linkedin
+          .large-3.medium-3.small-6.columns.team-listing.wow.fadeInUp data-wow-delay="0.6s" data-wow-duration="1s" 
+            = image_tag("images/team/team-3.jpg", alt: "Jane Awesome", class: "team-media")
+            .team-overlay
+              h3.team-overlay-title.text-light Mickey Blueyes
+              p.team-overlay-designation Web Developer
+              ul.team-overlay-social
+                li
+                  a data-scroll="" href="#" 
+                    span.social_facebook
+                li
+                  a data-scroll="" href="#" 
+                    span.social_twitter
+                li
+                  a data-scroll="" href="#" 
+                    span.social_linkedin
+          .large-3.medium-3.small-6.columns.team-listing.wow.fadeInUp data-wow-delay="0.8s" data-wow-duration="1s" 
+            = image_tag("images/team/team-4.jpg", alt: "Jack Smith", class: "team-media")
+            .team-overlay
+              h3.team-overlay-title.text-light Ivy Parkar
+              p.team-overlay-designation Graphics Designer
+              ul.team-overlay-social
+                li
+                  a data-scroll="" href="#" 
+                    span.social_facebook
+                li
+                  a data-scroll="" href="#" 
+                    span.social_twitter
+                li
+                  a data-scroll="" href="#" 
+                    span.social_linkedin
+        /! /team-listing
+    /! /team
+    
+    /! services
+    section#services.section
+      .container
+        .row
+          h2.section-title.text-center
+            span.section-title-border.wow.pulse data-wow-delay="1s" data-wow-duration="1s"  Services
+          .section-info.medium-10.medium-offset-1.text-center.wow.fadeInDown
+            h3
+              | We transform
+              strong brands
+              | into digital experiences
+            ul.hr
+              li.hr-line
+                span
+              li.hr-icon
+                i.icon_adjust-vert
+              li.hr-line
+                span
+            p
+              | By combining the creativity of artists with the precision of engineers we develop custom solutions that achieve results.
+              a href="#portfolio"  See our work.
+        /! services-listing
+        #services-listing-wrapper
+          .service-list.row
+            .large-4.medium-4.small-6.columns.service-box.service-box-1.wow.fadeInUp data-wow-delay="0.2s" data-wow-duration="1s" 
+              .circle-point
+              a href="javascript:void(0);" 
+                span.service-icon.icon_lightbulb_alt
+              h3.service-title Design & UX
+              p.service-category User Experience
+              p.service-category Prototyping
+              p.service-category Platform Design
+              p.service-category Interaction Design
+            .large-4.medium-4.small-6.columns.service-box.service-box-1.wow.fadeInUp data-wow-delay="0.4s" data-wow-duration="1s" 
+              .circle-point
+              a href="javascript:void(0);" 
+                span.service-icon.icon_desktop
+              h3.service-title Web Design
+              p.service-category Visual Design
+              p.service-category Wireframing
+              p.service-category Branding
+              p.service-category Responsive
+            .large-4.medium-4.small-6.columns.service-box.service-box-last-1.wow.fadeInUp data-wow-delay="0.6s" data-wow-duration="1s" 
+              a href="javascript:void(0);" 
+                span.service-icon.icon_cart_alt
+              h3.service-title eCommerce
+              p.service-category Discounts and Promotions
+              p.service-category Product Fulfilment
+              p.service-category Magento
+              p.service-category WordPress
+            .large-4.medium-4.small-6.columns.service-box.service-box-2.wow.fadeInUp data-wow-delay="0.7s" data-wow-duration="1s" 
+              .circle-point
+              a href="javascript:void(0);" 
+                span.service-icon.icon_mobile
+              h3.service-title Mobile Design
+              p.service-category Cross-platform
+              p.service-category Touchscreen
+              p.service-category Usability
+              p.service-category Smart Loading
+            .large-4.medium-4.small-6.columns.service-box.service-box-2.wow.fadeInUp data-wow-delay="0.8s" data-wow-duration="1s" 
+              .circle-point
+              a href="javascript:void(0);" 
+                span.service-icon.icon_piechart
+              h3.service-title Strategy
+              p.service-category Problem Solving
+              p.service-category Technical Consulting
+              p.service-category Practices Analysis
+              p.service-category User Interviews
+            .large-4.medium-4.small-6.columns.service-box.service-box-last-2.wow.fadeInUp data-wow-delay="0.9s" data-wow-duration="1s" 
+              a href="javascript:void(0);" 
+                span.service-icon.icon_easel
+              h3.service-title Analytics
+              p.service-category Benchmarking
+              p.service-category Goal Setting
+              p.service-category Trend Spotting
+              p.service-category Funnel Analysis
+        /! / services-listing
+    /! /services
+
+    /! blog
+    section#blog.row.section.dark-bg-odd
+      .row
+        h2.section-title.text-center
+          span.section-title-border.wow.pulse data-wow-delay="1s" data-wow-duration="1s"  Our Blog
+        .section-info.medium-10.medium-offset-1.text-center.wow.fadeInDown
+          h3
+            | Get the latest from
+          ul.hr
+            li.hr-line
+              span
+            li.hr-icon
+              i.icon_pencil-edit_alt
+            li.hr-line
+              span
+          p To take a trivial example, which of us ever undertakes laborious.
+      .row
+        article.blog-post.post-first.text-center
+          header
+            p.post-cat
+              a href="javascript:void(0);"  Agency
+            h2.post-title
+              a href="javascript:void(0);"  Vestibulum auctor dapibus neque
+          footer
+            time.post-time datetime="2014-08-01"  August 1st, 2014
+            i.post-icon.icon_circle-slelected
+            span.post-author John Doe
+            i.post-icon.icon_circle-slelected
+            span.post-comments No Comments
+        article.blog-post.text-center
+          header
+            p.post-cat
+              a href="javascript:void(0);"  Design
+            h2.post-title
+              a href="javascript:void(0);"  Morbi in sem quis
+          footer
+            time.post-time datetime="2014-08-04"  August 4th, 2014
+            i.post-icon.icon_circle-slelected
+            span.post-author John Doe
+            i.post-icon.icon_circle-slelected
+            span.post-comments 2 Comments
+        article.blog-post.blog-post-last.text-center
+          header
+            p.post-cat
+              a href="javascript:void(0);"  UI
+            h2.post-title
+              a href="javascript:void(0);"  Aliquam tincidunt mauris eu risus
+          footer
+            time.post-time datetime="2014-08-12"  August 12th, 2014
+            i.post-icon.icon_circle-slelected
+            span.post-author Mickey Blueyes
+            i.post-icon.icon_circle-slelected
+            span.post-comments 5 Comments
+    /! /blog
+
+    /! contact
+    section#contact.row.section
+      #container
+        .row
+          h2.section-title.text-center
+            span.section-title-border.wow.pulse data-wow-delay="1s" data-wow-duration="1s"  お問い合わせ
+          .section-info.medium-10.medium-offset-1.text-center.wow.fadeInDown
+            h3
+              | We would love to hear from
+              strong you.
+            ul.hr
+              li.hr-line
+                span
+              li.hr-icon
+                i.icon_mail_alt
+              li.hr-line
+                span
+            p エルバFCのホームページへアクセス頂き、誠にありがとうございます。
+            p 練習のことや試合のこと、その他エルバについて気になっていることなどがありましたらお気軽にお問い合わせ下さい。
+            br
+            p お電話についてもお気軽にご連絡を頂ければと思います。
+            p 072-235-2345は事務所にかかります。
+            p 練習などで出払っていることがございますので、その際には070-5348-6681にお願い致します。
+            p 現場担当がでます、また、出ることができなかった時には折り返し連絡をさせて頂きますので、どうぞ宜しくお願い致します。
+        .row
+          fieldset#contactform.wow.bounce data-wow-delay="0.5s" data-wow-duration="2s" 
+            #form_result
+            .row
+              .medium-6.medium-offset-3
+                input#name.form-control name="name" placeholder=("Full Name") type="text" /
+            .row
+              .medium-3.medium-offset-3
+                input#email.form-control name="email" placeholder=("Valid email ID") type="text" value="" /
+              .medium-3
+                input#phone.form-control name="phone" placeholder=("Contact No") type="text" value="" /
+            .row
+              .medium-6.medium-offset-3
+                textarea#comments.form-control cols="40" name="message" placeholder=("Your Message") rows="5" 
+            .row
+              .medium-12.text-center
+                button#submit.btn.btn-white.btn-lg type="submit"  SUBMIT
+          /! </form
+    /! /contact
 
 
 article.attendance_index
