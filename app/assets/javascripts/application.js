@@ -18,3 +18,5 @@
 //= require wow
 
 $(function(){ $(document).foundation(); });
+
+$(function(){ new WOW().init(); });
