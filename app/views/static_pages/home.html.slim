@@ -1,2 +1,20 @@
-h1 StaticPages#home
-p Find me in app/views/static_pages/home.html.slim
+article.attendance_index
+  .row
+    .large-12.columns
+      h3 aaaaa
+      
+hr
+.row
+  .large-12.columns
+    = link_to raw("<i class='fi-print'></i>新規追加"),{action: "home"},{class: "button tiny radius"}
+
+hr
+.row
+  .large-12.columns
+    .icon-bar.ten-up
+      = link_to root_path, class:"item" do
+        = image_tag "icons/3-5.png", size: '40x40'
+        label ホーム
+      = link_to root_path, class:"item" do
+        = image_tag "icons/2-4.png", size: '40x40'
+        label 勤怠
