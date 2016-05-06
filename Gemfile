@@ -4,14 +4,12 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 4.2.6'
 
-#gem 'tzinfo-data', "~> 1.2016.4"
 gem "slim-rails", "~> 3.0.1"
 gem 'foundation-rails', "~> 6.2.1.0"
 gem 'foundation-icons-sass-rails'
 gem "animate-rails", "~> 1.0.10"
 gem 'wow-rails', "~> 0.0.1"
-#gem 'sass-rails'
-
+gem "jquery-slick-rails"
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3', "~> 1.3.11"

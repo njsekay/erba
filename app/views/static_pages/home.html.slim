@@ -1,67 +1,14 @@
-.orbit aria-label=("Favorite Space Pictures") data-orbit="" role="region" 
-  ul.orbit-container
-    button.orbit-previous
-      span.show-for-sr> Previous Slide
-      | ◀︎
-    button.orbit-next
-      span.show-for-sr> Next Slide
-      | ▶︎
-    li.is-active.orbit-slide
-      = image_tag("top_image1.jpg", alt: "システム・スクゥェアーの使命", :class => "orbit-image")
-      figcaption.orbit-caption システム・スクゥェアーの使命
-    li.orbit-slide
-      = image_tag("top_image3.jpg", alt: "システム・スクゥェアーにできること", :class => "orbit-image")
-      figcaption.orbit-caption システム・スクゥェアーにできること
-    li.orbit-slide
-      = image_tag("top_image2.jpg", alt: "システム・スクゥェアー社員", :class => "orbit-image")
-      figcaption.orbit-caption システム・スクゥェアー社員
-  nav.orbit-bullets
-    button.is-active data-slide="0" 
-      span.show-for-sr First slide details.
-      span.show-for-sr Current Slide
-    button data-slide="1" 
-      span.show-for-sr Second slide details.
-    button data-slide="2" 
-      span.show-for-sr Third slide details.
-
-article.home
-  .row#top_image_slide_area
-    .large-12.columns
-
-
-
-br
-
-
 #wrapper.dark-slider
 
   /! home - video presenation
   section#home.video.presenation
-    .overly-mask
-    #bg-slider.home-background
-    .home-text.container
-      h3 We are
-      #home-text-slider.home-carousel.home-theme
-        .item
-          .home-carousel-caption
-            h2 Ashoka
-            hr/
-            p An Award Winning Agency
-        .item
-          .home-carousel-caption
-            h2 Thinkers
-            hr/
-            p A Digital Creative Agency
-        .item
-          .home-carousel-caption
-            h2 Dreamers
-            hr/
-            p An Innovative Digital Agency
-        .item
-          .home-carousel-caption
-            h2 Artists
-            hr/
-            p We Are Creative Artist
+    .scroller
+      div
+        = image_tag("orbit-1.jpg")
+      div
+        = image_tag("orbit-2.jpg")
+      div
+        = image_tag("orbit-3.jpg")
     .scroll
       span.scroll-down
       span.scroll-text Scroll
@@ -136,3 +83,6 @@ br
     .wow.slideInRight data-wow-iteration="10" data-wow-offset="10"
       |bbbbbbbbbbbbbbbb
 |zzzz2
+
+
+  
