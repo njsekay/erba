@@ -1,3 +1,9 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+article.profile_company table {border:0;}
+article.profile_company table td {background-color:#fff;border-bottom: 1px solid #ECECEC;height:60px;color:#3E4C59;}
+article.profile_company table .large_width{width: 55%;}
+article.profile_company table td strong{color:#3E4C59;}

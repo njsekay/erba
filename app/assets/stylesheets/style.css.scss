@@ -48,7 +48,7 @@ html, body{
 }
 
 body {
-    font-family: "Merriweather",Helvetica,Arial,sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
     font-size: 15px;
     font-weight: 400;
     line-height: 1.628571;
@@ -85,8 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p{
-    font-family: "Merriweather",Helvetica,Arial,sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 1.628571;
     color: #666666;
@@ -106,7 +105,6 @@ strong.colored{
 }
 input[type=text], input[type=url], input[type=tel], input[type=number], input[type=email], textarea {
     width: 100%;
-    font-family: "Raleway",Helvetica,Arial,sans-serif;
     height: 40px;
     display: block;
     font-size: 15px;
@@ -150,42 +148,6 @@ input[type=text], input[type=url], input[type=tel], input[type=number], input[ty
     top:40%;
     left:45%;
     font-size: 50px;
-}
-
-.loader {
-  position: absolute;
-  left: 50%;
-  top: 70%;
-  margin: -20px 0 0 -20px;
-  background-color: white;
-  border-radius: 50%;
-  box-shadow: 0 0 0 6.66667px #141414;
-  width: 40px;
-  height: 40px;
-}
-.loader:before, .loader:after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  display: block;
-  margin: -21px 0 0 -21px;
-  border-radius: 50%;
-  z-index: 2;
-  width: 42px;
-  height: 42px;
-}
-.loader:before {
-  background-color: #141414;
-  -webkit-animation: expand 1.6s linear infinite both;
-  -moz-animation: expand 1.6s linear infinite both;
-  animation: expand 1.6s linear infinite both;
-}
-.loader:after {
-  background-color: white;
-  -webkit-animation: expand 1.6s linear 0.8s infinite both;
-  -moz-animation: expand 1.6s linear 0.8s infinite both;
-  animation: expand 1.6s linear 0.8s infinite both;
 }
 
 @-webkit-keyframes expand {
@@ -243,7 +205,6 @@ input[type=text], input[type=url], input[type=tel], input[type=number], input[ty
 
 /*custom button*/
 .btn{
-    font-family: "Raleway",Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 2px;
 }
@@ -2600,4 +2561,170 @@ article.blog-post:hover .blog-post,article.blog-post:hover .post-cat a,article.b
     }
 
   }
+}
+
+body {
+    color: #ffffff;
+    background: #333;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+}
+.text-light{
+    color: #ffffff;
+}
+p{
+    color: #ffffff;
+}
+.dark-bg-odd{
+    background: #555;
+}
+.circle-point {
+    background: #fff;
+}
+#pre-loader {
+    background: #333;
+}
+/* Content
+-------------------------------------------------------------- */
+
+.section-title-border{
+    border: 4px double #ffffff;
+}
+#request-pro{
+    background-color: #555;
+}
+/* Other elemets
+-------------------------------------------------------------- */
+#trigger-navbar span{
+    background: rgba(255,255,255,0.2);
+}
+.post-thinkers:before,.post-dremers:before,.post-researchers:before{
+    color:#555555;
+}
+.service-icon{
+    color: #fff;
+}
+.request-text{
+    color: #fff;
+}
+.price-box{
+    border: 1px solid #a9a9a9;
+}
+.grid figcaption{
+    background-color: #333;
+}
+.form-control{
+    border-bottom: 1px solid #a9a9a9;
+    color: #fff;
+}
+#comments{
+    border-bottom: 1px solid #a9a9a9;
+}
+#contactform input[type=text]:focus, #contactform input#email:focus, #contactform input#phone:focus, #comments:focus{
+    background-color: #3C3C3C;
+}
+.post-title a,.post-cat a{
+    color: #a9a9a9;
+}
+.current.show p {
+    color: #333;
+}
+
+// トップページのスライド
+ .scroller {
+   div {
+     text-align: center;
+     font-size: 30px;
+   }
+ }
+
+ .slick-prev::before, .slick-next::before {
+   color: #000;
+ }
+
+ .slick-next {
+   right: -5px;
+ }
+
+ .slick-prev {
+   left: -5px;
+ }
+
+ .slick-dots {
+     bottom: -10px;
+ }
+ .slick-dots li button:before {
+     color: #fff;
+ }
+ .slick-dots li.slick-active button:before {
+     color: #fff;
+ }
+
+
+// ナビゲーションバー
+.clear {
+	clear: both;
+}
+
+.section {
+	width: 100%;
+	z-index: 10;
+	position: relative;
+	margin: 0 auto;
+	padding: 0 0 20px 0;
+
+}
+
+.inner {
+	margin: 0 auto;
+	position: relative;
+	min-height: 50px;
+	padding:0px 0;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.inner:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+}
+
+.subMenu {
+	height: 50px;
+	z-index: 1000;
+	width: 100%;
+	background: #06482d;
+}
+
+.subMenu .inner {
+	padding:0;
+	font-weight: 400;
+	margin: 0 auto;
+}
+
+.subNavBtn {
+	display: block;
+	height: 50px;
+	width: 13%;
+	float: left;
+	margin: 0px 0px 0 0;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 15px 2% 0 2%;
+	text-align: center;
+
+	color: #fff;
+}
+.subMenu a:hover {
+	background: #85A541;
+  color: #fff;
+}
+
+.active {
+	background: #1D6A34;
+}
+.end {
+	margin: 0;
 }

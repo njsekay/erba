@@ -20,6 +20,19 @@
 
 $(function(){ $(document).foundation(); });
 
+$(document).ready( function() {
+    $('.subMenu').smint({
+        'scrollSpeed'           : 500,
+        'mySelector'            : 'section',
+        'lastSectionBigEnough'  : 0 // 1 = big enough to trigger activ on scroll, 0 = not big enough, active is triggerd after reaching the bottom
+    });
+});
+
+
+$(window).on('beforeunload', function() {
+    $(window).scrollTop(0);
+});
+
 $(function(){ new WOW().init(); });
 
 $(function() {
